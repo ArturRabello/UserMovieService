@@ -1,0 +1,34 @@
+services:
+  db:
+    image: postgres:17
+    container_name: postegres_db_movieUser
+    restart: always
+    environment:
+      POSTGRES_USER: postgres_db_movieUser
+      POSTGRES_PASSWORD: postgres_db_movieUser
+      POSTGRES_DB: postgres_db_movieUser
+    ports:
+      - "5532:5532"
+    volumes:
+      - pgdata:/var/lib/postegresql/data
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: movieUser_service
+    ports:
+      - 5100:5100
+    environment:
+      - DATABASE_URL=postgresql://postgres_db_movieUser:postgres_db_movieUser@db/postgres_db_movieUser
+    depends_on:
+      - db
+    volumes:
+      - ./app:/app
+
+volumes:
+  pgdata:
+
+    
+
+
