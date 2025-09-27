@@ -2,7 +2,7 @@
 
 # 🎬 UserMovieService
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/ArturRabello/AuthService?style=for-the-badge) ![Linguagens](https://img.shields.io/github/languages/count/ArturRabello/AuthService?style=for-the-badge&logoWidth=40&labelWidth=100)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/ArturRabello/UserMovieService?style=for-the-badge) ![Linguagens](https://img.shields.io/github/languages/count/ArturRabello/UserMovieService?style=for-the-badge&logoWidth=40&labelWidth=100)
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![openapi initiative](https://img.shields.io/badge/openapiinitiative-%23000000.svg?style=for-the-badge&logo=openapiinitiative&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
