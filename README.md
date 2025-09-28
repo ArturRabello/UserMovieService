@@ -182,6 +182,24 @@ volumes:
   pgdata:
 ```
 
+#### Construir a imagem e subir o container
+
+**Controi a imagem**
+```
+docker compose build
+```
+
+**Cria containers (se não existirem) e sobe eles. Pode rebuildar imagens se necessário.**
+
+```
+docker compose up
+```
+
+**Inicia o container**
+```
+docker compose start
+```
+
 ## 🔍 funcionalidades
 
 **UserMovieService**
